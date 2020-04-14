@@ -75,7 +75,10 @@ h2 {
     text-align: left;
 }
 
-.card-body .card-title,
+.card-body .card-title {
+    text-align: center;
+}
+
 .card-body .card-text {
     text-align: left;
 }
