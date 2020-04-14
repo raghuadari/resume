@@ -1,0 +1,207 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #000;
+    line-height: 30px;
+    text-align: center;
+    background-color: #fdfff5;
+}
+
+strong {
+    font-weight: 600;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='darkgray' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='darkgray' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-indicators li {
+    background-color: darkgray;
+}
+
+a,
+a:hover,
+a:focus {
+    color: #9b59b6;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+h1,
+h2 {
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    color: #555;
+    line-height: 50px;
+}
+
+.jumbotron,
+.card {
+    background-color: #fdd835;
+}
+
+ul,
+.listgroup,
+.list-group-item {
+    /* background-color: #fae757; */
+    background-color: #fdfcfa;
+}
+
+.card {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.carousel-item .card-body .card-text,
+.carousel-item .list-group-item {
+    text-align: left;
+}
+
+.card-body .card-title,
+.card-body .card-text {
+    text-align: left;
+}
+
+.carousel-item .card-body {
+    border: 5px solid #444;
+}
+
+.navbar {
+    background: #444;
+    -o-transition: all .6s;
+    -moz-transition: all .6s;
+    -webkit-transition: all .6s;
+    -ms-transition: all .6s;
+    transition: all .6s;
+    backface-visibility: hidden;
+}
+
+.navbar.navbar-no-bg {
+    background: #444;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.navbar-dark .navbar-nav {
+    font-size: 15px;
+    color: #000;
+    font-weight: 600;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #000;
+    color: rgba(0, 0, 0, 0.8);
+    border: 0;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #000;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus {
+    color: #000;
+    outline: 0;
+}
+
+.navbar-dark .navbar-brand {
+    color: #000;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-left: 1em;
+    padding-right: 1rem;
+}
+
+.navbar-brand {
+    margin-left: 25px;
+}
+
+.cover {
+    padding: 275px 0;
+    opacity: 0.8;
+}
+
+.cover .text {
+    color: #000;
+}
+
+.cover .text h1 {
+    color: #000;
+}
+
+.cover .description p {
+    opacity: 0.8;
+}
+
+.cover .top-big-link {
+    margin-top: 45px;
+}
+
+.profile-box {}
+
+.profile-box-text {
+    padding-right: 30px;
+    text-align: left;
+}
+
+.profile-box-text h3 {
+    margin-top: 0;
+}
+
+.medium-paragraph {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.profile-box-text a {
+    border-bottom: 1px dashed #9b59b6;
+}
+
+.profile-box-text a:hover,
+.profile-box-text a:focus {
+    border: 0;
+}
+
+.profile-box-img {
+    padding-top: 60px;
+}
+
+.profile-box-img img {
+    border-radius: 4px;
+}
+
+.section {
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.edulogo {
+    margin-top: 50px;
+}
+
+.worklogo {}
+
+a .gl {
+    margin-top: 75px;
+    margin-left: -30px;
+}
+
+#Skills .list-group-horizontal .list-group-item {
+    border: 0;
+}
+
+#Skills .skills {
+    background-color: white;
+}
+
+#Contact .contact {
+    margin-bottom: 275px 0;
+}

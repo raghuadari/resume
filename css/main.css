@@ -1,0 +1,16 @@
+.list-group {
+    flex-direction: row;
+}
+
+.list-group-item {
+    border: 0;
+}
+
+body {
+    margin: 100px;
+}
+
+img {
+    width: 144;
+    height: 144;
+}
