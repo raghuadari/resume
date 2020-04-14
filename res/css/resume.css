@@ -1,11 +1,11 @@
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
     font-size: 16px;
     font-weight: 300;
     color: #000;
     line-height: 30px;
     text-align: center;
-    background-color: #fdfff5;
+    background-color: #FCF6F5FF;
 }
 
 strong {
@@ -42,16 +42,27 @@ h2 {
     line-height: 50px;
 }
 
-.jumbotron,
-.card {
-    background-color: #fdd835;
+.jumbotron {
+    background-color: #FFD662FF;
+    border-radius: 1rem;
 }
 
-ul,
-.listgroup,
-.list-group-item {
-    /* background-color: #fae757; */
-    background-color: #fdfcfa;
+.card {
+    background-color: #FFD662FF;
+    border-radius: 1rem;
+}
+
+#Projects .listgroup,
+#Projects .list-group-item {
+    background-color: #FFD662FF;
+}
+
+#Skills .skills,
+#Skills ul,
+#Skills .list-group,
+#Skills .list-group-horizontal,
+#Skills .list-group-item {
+    background-color: #FCF6F5FF;
 }
 
 .card {
@@ -67,10 +78,6 @@ ul,
 .card-body .card-title,
 .card-body .card-text {
     text-align: left;
-}
-
-.carousel-item .card-body {
-    border: 5px solid #444;
 }
 
 .navbar {
@@ -196,10 +203,6 @@ a .gl {
 
 #Skills .list-group-horizontal .list-group-item {
     border: 0;
-}
-
-#Skills .skills {
-    background-color: white;
 }
 
 #Contact .contact {
