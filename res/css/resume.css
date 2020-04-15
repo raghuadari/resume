@@ -75,7 +75,15 @@ h2 {
     text-align: left;
 }
 
-.card-body .card-title {
+#Experience .card-body .card-title {
+    text-align: left;
+}
+
+#Education .card-body .card-title {
+    text-align: left;
+}
+
+#Projects .card-body .card-title {
     text-align: center;
 }
 
