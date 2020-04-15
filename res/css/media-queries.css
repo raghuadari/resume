@@ -1,184 +1,208 @@
 @media (min-width: 1199px) and (max-width: 3000px) {
-     card .worklogo {
-         padding-left: 50px;
-     }
-     card .edulogo {
-         padding-left: 50px;
-     }
- }
- 
- @media (min-width: 992px) and (max-width: 1199px) {
-     .services-box .services-box-icon {
-         width: 60px;
-         height: 60px;
-         font-size: 32px;
-         line-height: 60px;
-         border-radius: 22px;
-     }
-     .profile-box-text {
-         padding-right: 0;
-     }
-     card .worklogo {
-         padding-left: 50px;
-     }
-     card .edulogo {
-         padding-left: 50px;
-     }
- }
- 
- @media (min-width: 768px) and (max-width: 991px) {
-     .navbar-expand-md .navbar-nav .nav-link {
-         padding-left: 0.6rem;
-         padding-right: 0.6rem;
-     }
-     .cover {
-         padding: 180px 0;
-     }
-     .section-description p {
-         padding: 0;
-     }
-     .services-box .services-box-icon {
-         width: 50px;
-         height: 50px;
-         font-size: 26px;
-         line-height: 50px;
-         border-radius: 18px;
-     }
-     .profile-box {
-         margin-top: 80px;
-     }
-     .profile-box:last-child {
-         margin-top: 50px;
-     }
-     .profile-box-text {
-         padding-right: 0;
-         text-align: center;
-     }
-     .more-services-box .more-services-box-icon {
-         width: 50px;
-         height: 50px;
-         font-size: 26px;
-         line-height: 50px;
-         border-radius: 18px;
-     }
-     .portfolio-box h3:hover i {
-         padding-left: 10px;
-     }
-     .blog-box h3:hover i {
-         padding-left: 10px;
-     }
-     card .worklogo {
-         padding-left: 50px;
-     }
-     card .edulogo {
-         padding-left: 50px;
-     }
- }
- 
- @media (max-width: 767px) {
-     .navbar.navbar-no-bg {
-         background: #444;
-     }
-     .navbar-dark .navbar-toggler {
-         border-color: #444;
-     }
-     .navbar-dark .navbar-toggler:focus {
-         background: #333;
-         outline: 0;
-     }
-     .navbar-expand-md .navbar-nav .nav-link {
-         padding-top: 0.3rem;
-         padding-bottom: 0.3rem;
-     }
-     .cover {
-         padding: 140px 0;
-     }
-     .cover .top-big-link {
-         margin-top: 25px;
-     }
-     .cover .top-big-link a.btn {
-         margin-top: 10px;
-     }
-     .section-description p {
-         padding: 0;
-     }
-     .services-container {
-         padding-bottom: 60px;
-     }
-     .services-box {
-         text-align: center;
-     }
-     .services-box h3 {
-         margin-top: 20px;
-         padding-top: 10px;
-     }
-     .profile-box {
-         margin-top: 80px;
-     }
-     .profile-box:last-child {
-         margin-top: 50px;
-     }
-     .profile-box-text {
-         padding-right: 0;
-         text-align: center;
-     }
-     .more-services-box {
-         text-align: center;
-     }
-     .more-services-box h3 {
-         margin-top: 20px;
-         padding-top: 10px;
-     }
-     .portfolio-box {
-         text-align: center;
-     }
-     .portfolio-box-image {
-         max-width: 540px;
-         margin: 0 auto;
-     }
-     .blog-box {
-         text-align: center;
-     }
-     .blog-box-image {
-         max-width: 540px;
-         margin: 0 auto;
-     }
-     .blog-box h3 {
-         margin-top: 30px;
-     }
-     footer {
-         text-align: center;
-     }
-     .footer-right {
-         padding-top: 10px;
-         text-align: center;
-     }
-     .footer-bottom {
-         padding-top: 20px;
-     }
- }
- 
- @media (max-width: 415px) {
-     h1,
-     h2 {
-         font-size: 32px;
-     }
-     .display-3,
-     h5 .display-6 {
-         font-size: 32px;
-     }
- }
- /* Retina-ize images/icons */
- /* @media only screen and (-webkit-min-device-pixel-ratio: 2),
+    card .worklogo {
+        padding-left: 50px;
+    }
+    card .edulogo {
+        padding-left: 50px;
+    }
+    #Skills .skills .list-group .list-group-item img {
+        width: 144px;
+        height: 144px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #Skills .skills .list-group .list-group-item img {
+        width: 112px;
+        height: 112px;
+    }
+    .services-box .services-box-icon {
+        width: 60px;
+        height: 60px;
+        font-size: 32px;
+        line-height: 60px;
+        border-radius: 22px;
+    }
+    .profile-box-text {
+        padding-right: 0;
+    }
+    card .worklogo {
+        padding-left: 50px;
+    }
+    card .edulogo {
+        padding-left: 50px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #Skills .skills .list-group .list-group-item img {
+        width: 96px;
+        height: 96px;
+    }
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-left: 0.6rem;
+        padding-right: 0.6rem;
+    }
+    .cover {
+        padding: 180px 0;
+    }
+    .section-description p {
+        padding: 0;
+    }
+    .services-box .services-box-icon {
+        width: 50px;
+        height: 50px;
+        font-size: 26px;
+        line-height: 50px;
+        border-radius: 18px;
+    }
+    .profile-box {
+        margin-top: 80px;
+    }
+    .profile-box:last-child {
+        margin-top: 50px;
+    }
+    .profile-box-text {
+        padding-right: 0;
+        text-align: center;
+    }
+    .more-services-box .more-services-box-icon {
+        width: 50px;
+        height: 50px;
+        font-size: 26px;
+        line-height: 50px;
+        border-radius: 18px;
+    }
+    .portfolio-box h3:hover i {
+        padding-left: 10px;
+    }
+    .blog-box h3:hover i {
+        padding-left: 10px;
+    }
+    card .worklogo {
+        padding-left: 50px;
+    }
+    card .edulogo {
+        padding-left: 50px;
+    }
+}
+
+@media (max-width: 767px) {
+    #Skills .skills .list-group .list-group-item img {
+        width: 64px;
+        height: 64px;
+    }
+    .navbar.navbar-no-bg {
+        background: #444;
+    }
+    .navbar-dark .navbar-toggler {
+        border-color: #444;
+    }
+    .navbar-dark .navbar-toggler:focus {
+        background: #333;
+        outline: 0;
+    }
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-top: 0.3rem;
+        padding-bottom: 0.3rem;
+    }
+    .cover {
+        padding: 140px 0;
+    }
+    .cover .top-big-link {
+        margin-top: 25px;
+    }
+    .cover .top-big-link a.btn {
+        margin-top: 10px;
+    }
+    .section-description p {
+        padding: 0;
+    }
+    .services-container {
+        padding-bottom: 60px;
+    }
+    .services-box {
+        text-align: center;
+    }
+    .services-box h3 {
+        margin-top: 20px;
+        padding-top: 10px;
+    }
+    .profile-box {
+        margin-top: 80px;
+    }
+    .profile-box:last-child {
+        margin-top: 50px;
+    }
+    .profile-box-text {
+        padding-right: 0;
+        text-align: center;
+    }
+    .more-services-box {
+        text-align: center;
+    }
+    .more-services-box h3 {
+        margin-top: 20px;
+        padding-top: 10px;
+    }
+    .portfolio-box {
+        text-align: center;
+    }
+    .portfolio-box-image {
+        max-width: 540px;
+        margin: 0 auto;
+    }
+    .blog-box {
+        text-align: center;
+    }
+    .blog-box-image {
+        max-width: 540px;
+        margin: 0 auto;
+    }
+    .blog-box h3 {
+        margin-top: 30px;
+    }
+    footer {
+        text-align: center;
+    }
+    .footer-right {
+        padding-top: 10px;
+        text-align: center;
+    }
+    .footer-bottom {
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 415px) {
+    #Skills .skills .list-group .list-group-item img {
+        width: 32px;
+        height: 32px;
+    }
+    h1,
+    h2 {
+        font-size: 32px;
+    }
+    .display-3,
+    h5 .display-6 {
+        font-size: 32px;
+    }
+}
+
+
+/* Retina-ize images/icons */
+
+
+/* @media only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and ( min--moz-device-pixel-ratio: 2),
 only screen and ( -o-min-device-pixel-ratio: 2/1),
 only screen and ( min-device-pixel-ratio: 2),
 only screen and ( min-resolution: 192dpi),
 only screen and ( min-resolution: 2dppx) {
     /* logo */
- 
- .navbar-brand {
-     /* background-image: url(../images/logo.png) !important;
+
+.navbar-brand {
+    /* background-image: url(../images/logo.png) !important;
         background-repeat: no-repeat !important;
         background-size: 136px 39px !important; */
- }
+}
