@@ -1,2 +1,6 @@
 # Google App Engine generated folder
 appengine-generated/
+.DS_Store
+res/.DS_Store
+res/images/.DS_Store
+temp.json
