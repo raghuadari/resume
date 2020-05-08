@@ -5,7 +5,12 @@ body {
     color: #000;
     line-height: 30px;
     text-align: center;
-    background-color: #FCF6F5FF;
+    background: #000000;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 strong {
@@ -43,18 +48,34 @@ h2 {
 }
 
 .jumbotron {
-    background-color: #FFD662FF;
+    background: #ED4264;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFEDBC, #ED4264);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFEDBC, #ED4264);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-radius: 1rem;
+    font-size: large;
 }
 
 .card {
-    background-color: #FFD662FF;
+    background: #ED4264;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFEDBC, #ED4264);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFEDBC, #ED4264);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-radius: 1rem;
 }
 
 #Projects .listgroup,
 #Projects .list-group-item {
-    background-color: #FFD662FF;
+    background: #ED4264;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFEDBC, #ED4264);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFEDBC, #ED4264);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 #Skills .skills,
@@ -62,7 +83,7 @@ h2 {
 #Skills .list-group,
 #Skills .list-group-horizontal,
 #Skills .list-group-item {
-    background-color: #FCF6F5FF;
+    background-color: transparent;
 }
 
 .card {
@@ -199,6 +220,14 @@ h2 {
 .section {
     padding-top: 50px;
     padding-bottom: 25px;
+    background: #009FFF;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ec2F4B, #009FFF);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ec2F4B, #009FFF);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 .edulogo {
