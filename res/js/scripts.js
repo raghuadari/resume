@@ -1,4 +1,4 @@
-$('.cover').backstretch("static/images/rv.png");
+$('.cover').backstretch("static/images/rv.jpg");
 new WOW().init();
 
 $(function() {
