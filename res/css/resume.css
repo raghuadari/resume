@@ -232,9 +232,13 @@ h2 {
 
 .edulogo {
     margin-top: 50px;
+    max-width: 100%;
 }
 
-.worklogo {}
+.worklogo {
+    margin-top: 30px;
+    max-width: 100%;
+}
 
 a .gl {
     margin-top: 75px;
