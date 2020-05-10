@@ -16,16 +16,6 @@
         width: 112px;
         height: 112px;
     }
-    .services-box .services-box-icon {
-        width: 60px;
-        height: 60px;
-        font-size: 32px;
-        line-height: 60px;
-        border-radius: 22px;
-    }
-    .profile-box-text {
-        padding-right: 0;
-    }
     card .worklogo {
         padding-left: 50px;
     }
@@ -45,39 +35,6 @@
     }
     .cover {
         padding: 180px 0;
-    }
-    .section-description p {
-        padding: 0;
-    }
-    .services-box .services-box-icon {
-        width: 50px;
-        height: 50px;
-        font-size: 26px;
-        line-height: 50px;
-        border-radius: 18px;
-    }
-    .profile-box {
-        margin-top: 80px;
-    }
-    .profile-box:last-child {
-        margin-top: 50px;
-    }
-    .profile-box-text {
-        padding-right: 0;
-        text-align: center;
-    }
-    .more-services-box .more-services-box-icon {
-        width: 50px;
-        height: 50px;
-        font-size: 26px;
-        line-height: 50px;
-        border-radius: 18px;
-    }
-    .portfolio-box h3:hover i {
-        padding-left: 10px;
-    }
-    .blog-box h3:hover i {
-        padding-left: 10px;
     }
     card .worklogo {
         padding-left: 50px;
@@ -115,63 +72,6 @@
     .cover .top-big-link a.btn {
         margin-top: 10px;
     }
-    .section-description p {
-        padding: 0;
-    }
-    .services-container {
-        padding-bottom: 60px;
-    }
-    .services-box {
-        text-align: center;
-    }
-    .services-box h3 {
-        margin-top: 20px;
-        padding-top: 10px;
-    }
-    .profile-box {
-        margin-top: 80px;
-    }
-    .profile-box:last-child {
-        margin-top: 50px;
-    }
-    .profile-box-text {
-        padding-right: 0;
-        text-align: center;
-    }
-    .more-services-box {
-        text-align: center;
-    }
-    .more-services-box h3 {
-        margin-top: 20px;
-        padding-top: 10px;
-    }
-    .portfolio-box {
-        text-align: center;
-    }
-    .portfolio-box-image {
-        max-width: 540px;
-        margin: 0 auto;
-    }
-    .blog-box {
-        text-align: center;
-    }
-    .blog-box-image {
-        max-width: 540px;
-        margin: 0 auto;
-    }
-    .blog-box h3 {
-        margin-top: 30px;
-    }
-    footer {
-        text-align: center;
-    }
-    .footer-right {
-        padding-top: 10px;
-        text-align: center;
-    }
-    .footer-bottom {
-        padding-top: 20px;
-    }
 }
 
 @media (max-width: 415px) {
@@ -184,6 +84,9 @@
     }
     .display-5 {
         font-size: 20px;
+    }
+    .dropdown-item {
+        text-align: center;
     }
 }
 

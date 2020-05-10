@@ -5,6 +5,8 @@ $(function() {
     $('[data-toggle="tooltip"]').tooltip()
 })
 
-$(".nav-link").on("click", function() {
-    $(".navbar-collapse").toggleClass("show");
+$(".nav-link").on("click", function(e) {
+    if (e.currentTarget["id"] !== "navbarDropdown") {
+        $(".navbar-collapse").toggleClass("show");
+    }
 });
